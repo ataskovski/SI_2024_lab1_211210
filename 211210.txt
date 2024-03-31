@@ -1,0 +1,42 @@
+4.	mkdir SI_2024_lab1_211210
+	cd SI_2024_lab1_211210
+	git init
+5.	git remote add origin https://github.com/ataskovski/SI_2024_lab1_211210.git (Го поврзуваме локалниот репозиториум со далечниот)
+6.	nano README.md (автоматски се креира датотека и ни се отвара едиторот каде ги внесуваме податоците)
+	git add . (ги додаваме сите фајлови на „сцената“, моментално тоа е само README.md)
+	git commit -m "Initial commit" (правиме commit, -m  ни овозмоќува директно да напишеме порака за комитот)
+7.	git add .(ги ставаме сите фајлови на „сцената“)
+	git commit -m "Add starter code"
+8.	git push origin master (Синхронизација со оддалечениот репозиториум)
+9.	git branch bug1
+	git branch bug2
+10.	git checkout bug1
+11.	git commit -a -m "Fix wrong condition in filterOddLengthStrings" (откако ја поправаме грешката во класата, со оваа гит команда правиме директно комит така што со -а ги додаваме сите фајлови кои што се модифицирани, ова нема да работи и за untracked фајлови и за нив ќе мора посебно да се искористи git add команда)
+12.	git checkout bug2
+13.	git commit -a -m "Fix wrong condition in makeBigStringFrom"
+14.	git checkout bug1
+15.	git commit -a -m "Call method filterOddLengthStrings in main class"
+16.	git checkout bug2
+17.	git commit -a -m "Call method makeBigStringFrom in main class"
+18.	git push origin bug1
+	git push origin bug2
+19.	git checkout master
+20.	git merge bug1
+21.	git push origin master
+22.	git checkout bug2
+23.	git rebase master (се јавува конфликт во класата main кој мора рачно да го поправиме, односно да ја смениме содржината на фајлот. Можеме да го оставиме само нашето решение, само решението од другите, или пак и 2те решенија што во ситуацијава ќе го примениме)
+	git add . (за да го додадеме променетиот фајл)
+	git rebase --continue (за да се продолжи git rebase)
+24.	git checkout master
+25.	git merge bug2
+26.	git push origin master
+	git push origin bug1
+	git push origin bug2 (неуспешно)
+27.	git push origin bug2 --force (успешно)
+28.	nano logs.txt
+	потоа со git log ги листаме логовите за сите гранки и ги додаваме во logs.txt
+	го додаваме и овој фајл во фолдерот
+	git add .
+29.	git push origin master
+	git push origin bug1
+	git push origin bug2

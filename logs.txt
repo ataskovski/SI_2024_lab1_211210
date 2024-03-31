@@ -1,0 +1,105 @@
+master logs
+--------------------------------------------------------------------------------------------------
+commit 6f91a9e6d5abb39758216ec59e6e3d490155204c (HEAD -> master, origin/master, origin/bug2, bug2)
+Author: AndrejTaskovski <andrej.taskovski@students.finki.ukim.mk>
+Date:   Sun Mar 31 16:31:06 2024 +0200
+
+    Call method makeBigStringFrom in main class
+
+commit dad5d462c92681e6e1e0433d17084820402c9bab
+Author: AndrejTaskovski <andrej.taskovski@students.finki.ukim.mk>
+Date:   Sun Mar 31 16:25:01 2024 +0200
+
+    Fix wrong condition in makeBigStringFrom
+
+commit d21afe3dfd0474d53ec7c08a6a33b4d5cf1dc399 (origin/bug1, bug1)
+Author: AndrejTaskovski <andrej.taskovski@students.finki.ukim.mk>
+Date:   Sun Mar 31 16:28:55 2024 +0200
+
+    Call method filterOddLengthStrings in main class
+
+commit 703ca7d8019a9c285446779b2fe1deb7ef5a5c9f
+Author: AndrejTaskovski <andrej.taskovski@students.finki.ukim.mk>
+Date:   Sun Mar 31 16:17:59 2024 +0200
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit f4b4705c786e0ff5d32166bfa6c07759350a8abc
+Author: AndrejTaskovski <andrej.taskovski@students.finki.ukim.mk>
+Date:   Sun Mar 31 16:10:08 2024 +0200
+
+    Add starter code
+
+commit 92b3052ca2978455069e46900b3f30919a864e88
+Author: AndrejTaskovski <andrej.taskovski@students.finki.ukim.mk>
+Date:   Sun Mar 31 16:04:27 2024 +0200
+
+    Initial commit
+
+--------------------------------------------------------------------------------------------------
+bug1 logs
+--------------------------------------------------------------------------------------------------
+
+commit d21afe3dfd0474d53ec7c08a6a33b4d5cf1dc399 (HEAD -> bug1, origin/bug1)
+Author: AndrejTaskovski <andrej.taskovski@students.finki.ukim.mk>
+Date:   Sun Mar 31 16:28:55 2024 +0200
+
+    Call method filterOddLengthStrings in main class
+
+commit 703ca7d8019a9c285446779b2fe1deb7ef5a5c9f
+Author: AndrejTaskovski <andrej.taskovski@students.finki.ukim.mk>
+Date:   Sun Mar 31 16:17:59 2024 +0200
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit f4b4705c786e0ff5d32166bfa6c07759350a8abc
+Author: AndrejTaskovski <andrej.taskovski@students.finki.ukim.mk>
+Date:   Sun Mar 31 16:10:08 2024 +0200
+
+    Add starter code
+
+commit 92b3052ca2978455069e46900b3f30919a864e88
+Author: AndrejTaskovski <andrej.taskovski@students.finki.ukim.mk>
+Date:   Sun Mar 31 16:04:27 2024 +0200
+
+    Initial commit	
+
+--------------------------------------------------------------------------------------------------
+bug2 logs
+--------------------------------------------------------------------------------------------------
+
+commit 6f91a9e6d5abb39758216ec59e6e3d490155204c (HEAD -> bug2, origin/master, origin/bug2, master)
+Author: AndrejTaskovski <andrej.taskovski@students.finki.ukim.mk>
+Date:   Sun Mar 31 16:31:06 2024 +0200
+
+    Call method makeBigStringFrom in main class
+
+commit dad5d462c92681e6e1e0433d17084820402c9bab
+Author: AndrejTaskovski <andrej.taskovski@students.finki.ukim.mk>
+Date:   Sun Mar 31 16:25:01 2024 +0200
+
+    Fix wrong condition in makeBigStringFrom
+
+commit d21afe3dfd0474d53ec7c08a6a33b4d5cf1dc399 (origin/bug1, bug1)
+Author: AndrejTaskovski <andrej.taskovski@students.finki.ukim.mk>
+Date:   Sun Mar 31 16:28:55 2024 +0200
+
+    Call method filterOddLengthStrings in main class
+
+commit 703ca7d8019a9c285446779b2fe1deb7ef5a5c9f
+Author: AndrejTaskovski <andrej.taskovski@students.finki.ukim.mk>
+Date:   Sun Mar 31 16:17:59 2024 +0200
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit f4b4705c786e0ff5d32166bfa6c07759350a8abc
+Author: AndrejTaskovski <andrej.taskovski@students.finki.ukim.mk>
+Date:   Sun Mar 31 16:10:08 2024 +0200
+
+    Add starter code
+
+commit 92b3052ca2978455069e46900b3f30919a864e88
+Author: AndrejTaskovski <andrej.taskovski@students.finki.ukim.mk>
+Date:   Sun Mar 31 16:04:27 2024 +0200
+
+    Initial commit
